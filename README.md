@@ -8,3 +8,5 @@ Files:
 - Finetune: Loads, Fine-tunes and saves a Llama-3.2-3B Model
   - Dataset Generation functions included here
 - Evaluate: Loads fine-tuned model and evaluates by prompting the model with 50 questions for each digit combination and determining accuracy
+
+Recommended way to use is to upload and open in google colab and run all cells from beginning. Evaluate does not require HF token as it loads models saved to my repo. Finetune does require as it loads Llama-3.2 directly.
